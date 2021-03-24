@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+	background-color:#DCFFE4;
+}
+
+.wrapper{
+	position: absolute; 
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 350px;
+	width: 100%;
+	background-color: #fff;
+	padding: 25px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px rgba(160, 189, 159);
+}
+
+.wrapper h2{
+	text-align: center;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;  
+}
+
+.wrapper .input_field{
+	margin-bottom: 2px;
+	font-size: 14px;
+}
+
+#payment_form .success {
+	border: 1px solid #7FEE7E;
+}
+
+#payment_form .error {
+	border: 1px solid #FF6650;
+}
+
+.wrapper .input_field input[type="text"]{
+	width: 100%;
+	border: 1px solid: #f0f0f0;
+	padding: 6px;
+	font-size: 14px;
+	border-radius: 5px;
+}
+
+.wrapper textarea{
+	height: 80px;
+	resize: none;
+}
+
+button {
+	border: 0;
+	margin-top: 15px;
+	padding: 10px;
+	width: 100%;
+	background: #EBE7E5;
+	color: #000000;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-radius: 5px;
+}
+button:hover{
+  background-color: #7FEE7E;
+  text-decoration: underline;
+  border-radius: 25px;
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s ease;
+  }
+
+.wrapper small{
+	visibility: hidden;
+	margin-top: 15px;
+	padding: 10px;
+	width: 100%;
+	padding: 0;
+	color: #FF6650;
+	font-size: 12px;
+	transition: all 0.5s ease;
+
+}
+
+
